@@ -1,0 +1,18 @@
+{
+  "metaTitle": "Uri Ustrell — Desenvolupador Full-Stack",
+  "metaDescription": "CV gamificat retro 8 bits de l'Oriol 'Uri' Ustrell — desenvolupador full-stack JS/TS establert a Sabadell, Catalunya.",
+  "hudName": "URI USTRELL",
+  "hudSubtitle": "Dev Full-Stack",
+  "lvlLabel": "LVL",
+  "xpLabel": "MÓN EXPLORAT",
+  "sndOn": "SND:ON",
+  "sndOff": "SND:OFF",
+  "toastTitle": "★ ASSOLIMENT DESBLOQUEJAT",
+  "coinTitleFirst": "apareix una moneda salvatge! recull-la",
+  "coinTitle": "recull-la!",
+  "coinTitleLast": "l'última!",
+  "playBtn": "▶ JUGA",
+  "codeBtn": "</> CODI",
+  "avatarAlt": "Retrat pixelat de l'Uri Ustrell",
+  "langNames": { "en": "EN", "ca": "CA", "es": "ES" }
+}

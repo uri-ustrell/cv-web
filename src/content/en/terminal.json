@@ -1,0 +1,110 @@
+{
+  "title": "TERMINAL — type to explore",
+  "windowTitle": "uri@cv:~",
+  "prompt": "visitor@uri:~$",
+  "placeholder": "try: help",
+  "hint": "commands: help · whoami · skills · projects · experience · education · contact · sudo · coffee · clear",
+  "boot": [
+    { "text": "URI-OS v6.0  (c) 1986-2026 uri.ustrell", "color": "dim" },
+    { "text": "booting curriculum.exe ... OK", "color": "green" },
+    { "text": "Type 'help' and hit Enter to explore. Or just scroll.", "color": "text" }
+  ],
+  "outputs": {
+    "help": [
+      { "text": "available commands:", "color": "gold" },
+      { "text": "  whoami      who is this guy", "color": "text" },
+      { "text": "  skills      the tech stack", "color": "text" },
+      { "text": "  experience  work history (short)", "color": "text" },
+      { "text": "  projects    open-source builds", "color": "text" },
+      { "text": "  education   the paper trail", "color": "text" },
+      { "text": "  contact     how to reach me", "color": "text" },
+      { "text": "  social      github + linkedin", "color": "text" },
+      { "text": "  ls          list sections", "color": "text" },
+      { "text": "  sudo        do not", "color": "text" },
+      { "text": "  coffee      important", "color": "text" },
+      { "text": "  clear       wipe the screen", "color": "text" }
+    ],
+    "whoami": [
+      { "text": "Oriol 'Uri' Ustrell i Altayo", "color": "cyan" },
+      {
+        "text": "Full-Stack JS/TS Developer, frontend-leaning, based in Sabadell.",
+        "color": "text"
+      },
+      { "text": "6+ years shipping. Psychologist by degree, dev by obsession.", "color": "text" }
+    ],
+    "skills": [
+      { "text": "frontend : React, Next.js, TypeScript, Redux, SASS", "color": "text" },
+      { "text": "backend  : Node.js, PHP/Laravel, .NET/C#, SQL, MongoDB", "color": "text" },
+      { "text": "tooling  : Webpack, Rollup, Jest, Git, Jenkins, in-house CLIs", "color": "text" },
+      { "text": "bonus    : microfrontends, SSG/SSR, monorepos", "color": "gold" }
+    ],
+    "experience": [
+      { "text": "MANGO            Senior Frontend Dev     2020 - now", "color": "text" },
+      { "text": "Freelance/OSS    JS Dev (React/Redux)    2019 - now", "color": "text" },
+      { "text": "Robotics S.A.    Full-Stack Dev          2019 - 2020", "color": "text" },
+      { "text": "Marfeel          Frontend Web Dev        2018 - 2019", "color": "text" },
+      { "text": "...and a creative past life in media, video & radio.", "color": "dim" }
+    ],
+    "projects": [
+      {
+        "text": "La Micro Comandes  -> ",
+        "color": "text",
+        "href": "https://uri-ustrell.github.io/lamicro-comandes/"
+      },
+      {
+        "text": "Paint (React/Redux)-> ",
+        "color": "text",
+        "href": "https://uri-ustrell.github.io/paint-react-redux/"
+      },
+      {
+        "text": "github.com/uri-ustrell",
+        "color": "cyan",
+        "href": "https://github.com/uri-ustrell"
+      }
+    ],
+    "education": [
+      { "text": "Cal Molins        Web App Development     2017-2018", "color": "text" },
+      { "text": "UOC               BSc Psychology          2015-2017", "color": "text" },
+      { "text": "Institut Gestalt  NLP Master Practitioner 2015-2016", "color": "text" }
+    ],
+    "contact": [
+      {
+        "text": "email : uri.ustrell@gmail.com",
+        "color": "text",
+        "href": "mailto:uri.ustrell@gmail.com"
+      },
+      { "text": "based : Sabadell, Catalonia, Spain", "color": "text" },
+      { "text": "langs : Espanol, Catala (native) + English (pro)", "color": "text" }
+    ],
+    "social": [
+      {
+        "text": "github.com/uri-ustrell",
+        "color": "cyan",
+        "href": "https://github.com/uri-ustrell"
+      },
+      {
+        "text": "linkedin.com/in/uriustrell",
+        "color": "cyan",
+        "href": "https://www.linkedin.com/in/uriustrell/"
+      }
+    ],
+    "ls": [
+      {
+        "text": "about  skills  experience  projects  education  interests  contact",
+        "color": "cyan"
+      }
+    ],
+    "sudo": [
+      { "text": "visitor is not in the sudoers file.", "color": "red" },
+      { "text": "This incident has been reported. (jk)", "color": "dim" }
+    ],
+    "coffee": [
+      { "text": "brewing... ERROR: coffee.exe stopped responding at 3am.", "color": "gold" },
+      { "text": "classic frontend behaviour.", "color": "dim" }
+    ],
+    "hello": [{ "text": "hey there, fellow traveler  o/", "color": "gold" }],
+    "konami": [{ "text": "★ CHEAT ACTIVATED: infinite curiosity enabled ★", "color": "pink" }]
+  },
+  "stats": "LVL {level}  ·  {ach}/{achTotal} achievements  ·  {coins}/{coinTotal} coins",
+  "notFound": "command not found: {cmd}  (try 'help')"
+}

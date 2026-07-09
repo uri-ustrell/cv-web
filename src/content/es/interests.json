@@ -1,0 +1,22 @@
+{
+  "title": "HABILIDADES PASIVAS",
+  "intro": "Bufos fuera de horario y los autores que me recablearon la cabeza:",
+  "cards": {
+    "lateral": {
+      "name": "+PENSAMIENTO LATERAL",
+      "body": "Edward de Bono — ataca el problema desde el lado."
+    },
+    "goal": {
+      "name": "+LA META",
+      "body": "Eliyahu Goldratt — encuentra y rompe el cuello de botella."
+    },
+    "nlp": {
+      "name": "+PNL",
+      "body": "Bandler & Grinder — el mapa no es el territorio."
+    },
+    "arts": {
+      "name": "+ARTES CREATIVAS",
+      "body": "Vídeo, motion, sonido en directo y radio — una vida creativa pasada."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "LORE",
+  "paragraphs": [
+    [
+      { "text": "A frontend-leaning full-stack dev with " },
+      { "text": "6+ years", "accent": "gold" },
+      {
+        "text": " shipping JavaScript & TypeScript at scale. By day I build microfrontends, in-house CLIs and shared libraries; by night I'm still doing basically the same thing, but for fun."
+      }
+    ],
+    [
+      { "text": "Plot twist: I've got a " },
+      { "text": "degree in Psychology", "accent": "cyan" },
+      {
+        "text": " and a past life in audiovisual production and radio. Turns out understanding humans is a decent debugger for building things they'll actually use."
+      }
+    ],
+    [
+      { "text": "My philosophy comes from three mentors I never met: " },
+      { "text": "de Bono", "accent": "purple" },
+      { "text": " (think sideways), " },
+      { "text": "Goldratt", "accent": "purple" },
+      { "text": " (find the bottleneck), and " },
+      { "text": "Bandler & Grinder", "accent": "purple" },
+      { "text": " (mind the map, not the territory)." }
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "LOOT & BUILDS",
+  "descriptions": {
+    "lamicro": "Order-taking app for a local business. Live and running.",
+    "paint": "A browser paint tool built to master the Redux state loop.",
+    "starmatch": "A little number-matching puzzle game in React.",
+    "holidays": "A holidays calendar built on Next.js.",
+    "ecommerce": "An e-commerce front build exploring cart & catalog flows.",
+    "boilerplate": "A ready-to-go React + Redux + Thunk starter kit."
+  }
+}

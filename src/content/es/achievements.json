@@ -1,0 +1,12 @@
+{
+  "boot": { "name": "PARTIDA INICIADA", "sub": "Has pulsado start. Bienvenido, Jugador 1." },
+  "hacker": { "name": "HACKERMAN", "sub": "Has usado el terminal. Respeto." },
+  "lore": { "name": "MAESTRO DEL LORE", "sub": "Has leído la historia." },
+  "skill": { "name": "ÁRBOL DE HABILIDADES", "sub": "Has inspeccionado la build." },
+  "quest": { "name": "CRONISTA DE MISIONES", "sub": "Has abierto el registro de misiones." },
+  "builder": { "name": "MAESTRO CONSTRUCTOR", "sub": "Has ojeado el botín." },
+  "scholar": { "name": "ERUDITO", "sub": "Has visitado el campo de entrenamiento." },
+  "thinker": { "name": "PENSADOR PROFUNDO", "sub": "Has encontrado las habilidades pasivas." },
+  "treasure": { "name": "CAZATESOROS", "sub": "¡Has recogido las 5 monedas!" },
+  "complete": { "name": "COMPLETISTA", "sub": "Has llegado al final. GG." }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "CAMPO DE ENTRENAMIENTO",
+  "entries": {
+    "cfo": {
+      "degree": "Desarrollo de aplicaciones web",
+      "org": "CFO Cal Molins — tecnología web y multimedia"
+    },
+    "calmolins": {
+      "degree": "Desarrollo de aplicaciones web",
+      "org": "Cal Molins — programación informática"
+    },
+    "uoc": {
+      "degree": "Grado en Psicología",
+      "org": "Universitat Oberta de Catalunya"
+    },
+    "gestalt": {
+      "degree": "Máster Practitioner en PNL",
+      "org": "Institut Gestalt"
+    }
+  }
+}

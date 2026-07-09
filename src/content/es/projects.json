@@ -1,0 +1,11 @@
+{
+  "title": "BOTÍN Y CREACIONES",
+  "descriptions": {
+    "lamicro": "App para tomar pedidos para un negocio local. En vivo y funcionando.",
+    "paint": "Una herramienta de dibujo en el navegador construida para dominar el ciclo de estado de Redux.",
+    "starmatch": "Un pequeño juego de puzle de emparejar números hecho con React.",
+    "holidays": "Un calendario de festivos construido con Next.js.",
+    "ecommerce": "Un frontend de e-commerce que explora flujos de carrito y catálogo.",
+    "boilerplate": "Un starter kit de React + Redux + Thunk listo para usar."
+  }
+}

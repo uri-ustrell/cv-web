@@ -1,0 +1,147 @@
+.section {
+  position: relative;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.panel {
+  display: flex;
+  gap: 34px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 26px 40px;
+  background: var(--bg-panel);
+  border: 3px solid #000;
+  box-shadow:
+    inset 0 0 0 3px var(--bg-chip),
+    10px 10px 0 rgba(0, 0, 0, 0.55);
+}
+
+.avatarFrame {
+  width: 180px;
+  height: 180px;
+  border: 4px solid #000;
+  box-shadow:
+    6px 6px 0 rgba(0, 0, 0, 0.5),
+    inset 0 0 0 4px var(--purple);
+  background: var(--bg-well);
+  animation: floaty 5s ease-in-out infinite;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.avatarImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: pixelated;
+  display: block;
+}
+
+.avatarPlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-pixel);
+  font-size: 34px;
+  color: var(--purple);
+}
+
+.body {
+  flex: 1;
+  min-width: 280px;
+}
+
+.eyebrow {
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  color: var(--green);
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: var(--font-pixel);
+  font-size: clamp(20px, 6.4vw, 30px);
+  line-height: 1.35;
+  margin: 0 0 8px;
+  color: var(--text-primary);
+  text-shadow: 4px 4px 0 var(--purple);
+  font-weight: normal;
+}
+
+.classLine {
+  font-size: 24px;
+  color: var(--cyan);
+  margin: 6px 0 2px;
+}
+
+.classValue {
+  color: var(--gold);
+}
+
+.metaLine {
+  font-size: 20px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 20px 0 8px;
+  max-width: 340px;
+}
+
+.barLabels {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-pixel);
+  font-size: 7px;
+  margin-bottom: 3px;
+}
+
+.hpLabel {
+  color: var(--green);
+}
+
+.mpLabel {
+  color: var(--cyan);
+}
+
+.barValue {
+  color: var(--text-muted);
+}
+
+.barTrack {
+  height: 12px;
+  background: var(--bg-well);
+  border: 3px solid #000;
+}
+
+.hpFill {
+  height: 100%;
+  width: 100%;
+  background: var(--green);
+}
+
+.mpFill {
+  height: 100%;
+  background: var(--cyan);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.blink {
+  animation: blink 1.4s step-end infinite;
+}

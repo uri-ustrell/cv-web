@@ -1,0 +1,12 @@
+{
+  "boot": { "name": "PARTIDA INICIADA", "sub": "Has premut start. Benvingut, Jugador 1." },
+  "hacker": { "name": "HACKERMAN", "sub": "Has fet servir el terminal. Respecte." },
+  "lore": { "name": "MESTRE DEL LORE", "sub": "Has llegit la història." },
+  "skill": { "name": "ARBRE D'HABILITATS", "sub": "Has inspeccionat la build." },
+  "quest": { "name": "CRONISTA DE MISSIONS", "sub": "Has obert el registre de missions." },
+  "builder": { "name": "MESTRE CONSTRUCTOR", "sub": "Has remenat el botí." },
+  "scholar": { "name": "ERUDIT", "sub": "Has visitat el camp d'entrenament." },
+  "thinker": { "name": "PENSADOR PROFUND", "sub": "Has trobat les habilitats passives." },
+  "treasure": { "name": "CAÇADOR DE TRESORS", "sub": "Has recollit les 5 monedes!" },
+  "complete": { "name": "COMPLETISTA", "sub": "Has arribat al final. GG." }
+}

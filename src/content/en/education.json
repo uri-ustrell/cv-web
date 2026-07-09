@@ -1,0 +1,21 @@
+{
+  "title": "TRAINING GROUNDS",
+  "entries": {
+    "cfo": {
+      "degree": "Web App Development",
+      "org": "CFO Cal Molins — web tech & multimedia"
+    },
+    "calmolins": {
+      "degree": "Web App Development",
+      "org": "Cal Molins — computer programming"
+    },
+    "uoc": {
+      "degree": "BSc Psychology",
+      "org": "Universitat Oberta de Catalunya"
+    },
+    "gestalt": {
+      "degree": "NLP Master Practitioner",
+      "org": "Institut Gestalt"
+    }
+  }
+}

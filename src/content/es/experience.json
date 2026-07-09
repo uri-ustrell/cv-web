@@ -1,0 +1,66 @@
+{
+  "title": "REGISTRO DE MISIONES",
+  "mainQuestTag": "◆ MISIÓN PRINCIPAL",
+  "now": "AHORA",
+  "jobs": {
+    "mango": {
+      "role": "Desarrollador Frontend Sénior",
+      "blurb": [
+        {
+          "text": "Microfrontends a escala retail. Construí y mantengo una CLI interna en Node, además de un arsenal de librerías compartidas, herramientas y pipelines de SSG. Un entorno en actualización continua rodeado de devs realmente buenos."
+        }
+      ]
+    },
+    "freelance": {
+      "role": "Desarrollador JavaScript · React · Redux · React Native",
+      "blurb": [
+        {
+          "text": "Un goteo constante de misiones secundarias: apps de pintar, calendarios de festivos, e-commerce y juegos de navegador — todo open-source. Mira el botín de "
+        },
+        { "text": "PROYECTOS", "href": "#projects" },
+        { "text": " aquí abajo." }
+      ]
+    },
+    "robotics": {
+      "role": "Desarrollador Full-Stack",
+      "blurb": [
+        {
+          "text": "Un equipo pequeño, todo un mundo nuevo: el stack .NET, las herramientas de Windows y su propia arquitectura. Cerca de casa, y un buen reto."
+        }
+      ]
+    },
+    "marfeel": {
+      "role": "Desarrollador Web Frontend",
+      "blurb": [
+        {
+          "text": "Web de vanguardia en una adtech líder, aprendiendo de un gran equipo. Una oportunidad increíble para subir de nivel rápido."
+        }
+      ]
+    },
+    "adesso": {
+      "role": "Dev Laravel y Angular",
+      "blurb": [
+        {
+          "text": "Un sprint de un mes — Laravel por detrás, primeros pasos con Angular por delante."
+        }
+      ]
+    },
+    "creating": {
+      "role": "Moodle Front & Back",
+      "blurb": [
+        {
+          "text": "PHP, MariaDB, Mustache y jQuery — tematizando Moodle para los mayores distribuidores de e-learning de España."
+        }
+      ]
+    }
+  },
+  "pastLivesTitle": "▸ VIDAS PASADAS (pre-código) — creatividad, medios y sonido",
+  "pastLives": {
+    "eralgrup": "Coordinador audiovisual",
+    "patatabrava": "Venta de publicidad online",
+    "acn": "Becario de periodismo",
+    "emagister": "Redactor publicitario",
+    "concatel": "Community Manager",
+    "radiosabadell": "Técnico de sonido en directo"
+  }
+}

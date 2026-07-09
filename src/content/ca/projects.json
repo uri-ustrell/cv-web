@@ -1,0 +1,11 @@
+{
+  "title": "BOTÍ I CREACIONS",
+  "descriptions": {
+    "lamicro": "App per prendre comandes per a un negoci local. En viu i funcionant.",
+    "paint": "Una eina de dibuix al navegador construïda per dominar el cicle d'estat de Redux.",
+    "starmatch": "Un petit joc de puzle d'aparellar nombres fet amb React.",
+    "holidays": "Un calendari de festius construït amb Next.js.",
+    "ecommerce": "Un frontend d'e-commerce que explora fluxos de cistella i catàleg.",
+    "boilerplate": "Un starter kit de React + Redux + Thunk a punt per fer servir."
+  }
+}

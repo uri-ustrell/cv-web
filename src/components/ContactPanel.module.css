@@ -1,0 +1,59 @@
+.section {
+  max-width: 1040px;
+  margin: 46px auto 0;
+  padding: 0 20px;
+}
+
+.panel {
+  background: var(--bg-panel);
+  border: 3px solid #000;
+  box-shadow:
+    inset 0 0 0 3px var(--bg-chip),
+    10px 10px 0 rgba(0, 0, 0, 0.55);
+  padding: 32px 26px;
+  text-align: center;
+}
+
+.title {
+  font-family: var(--font-pixel);
+  font-size: 16px;
+  color: var(--gold);
+  text-shadow: 3px 3px 0 #000;
+  margin-bottom: 10px;
+}
+
+.line {
+  font-size: 22px;
+  color: var(--text-body);
+  margin-bottom: 22px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btnPad {
+  padding: 12px 15px;
+}
+
+.footer {
+  font-size: 16px;
+  color: var(--text-faint);
+  margin-top: 24px;
+}
+
+.langLink {
+  color: var(--text-faint);
+  text-decoration: underline;
+}
+
+.langLink:hover {
+  color: var(--gold);
+}
+
+.langCurrent {
+  color: var(--text-muted);
+}

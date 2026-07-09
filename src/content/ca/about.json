@@ -1,0 +1,28 @@
+{
+  "title": "LORE",
+  "paragraphs": [
+    [
+      { "text": "Un dev full-stack tirant a frontend amb " },
+      { "text": "6+ anys", "accent": "gold" },
+      {
+        "text": " publicant JavaScript i TypeScript a gran escala. De dia construeixo microfrontends, CLIs internes i llibreries compartides; de nit segueixo fent bàsicament el mateix, però per diversió."
+      }
+    ],
+    [
+      { "text": "Gir de guió: tinc una " },
+      { "text": "llicenciatura en Psicologia", "accent": "cyan" },
+      {
+        "text": " i una vida passada en producció audiovisual i ràdio. Resulta que entendre els humans és un bon depurador per construir coses que la gent farà servir de debò."
+      }
+    ],
+    [
+      { "text": "La meva filosofia ve de tres mentors que mai no vaig conèixer: " },
+      { "text": "de Bono", "accent": "purple" },
+      { "text": " (pensa de costat), " },
+      { "text": "Goldratt", "accent": "purple" },
+      { "text": " (troba el coll d'ampolla) i " },
+      { "text": "Bandler & Grinder", "accent": "purple" },
+      { "text": " (compte amb el mapa, no amb el territori)." }
+    ]
+  ]
+}

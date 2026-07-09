@@ -1,0 +1,116 @@
+{
+  "title": "TERMINAL — escribe para explorar",
+  "windowTitle": "uri@cv:~",
+  "prompt": "visitor@uri:~$",
+  "placeholder": "prueba: help",
+  "hint": "comandos: help · whoami · skills · projects · experience · education · contact · sudo · coffee · clear",
+  "boot": [
+    { "text": "URI-OS v6.0  (c) 1986-2026 uri.ustrell", "color": "dim" },
+    { "text": "arrancando curriculum.exe ... OK", "color": "green" },
+    {
+      "text": "Escribe 'help' y pulsa Enter para explorar. O simplemente haz scroll.",
+      "color": "text"
+    }
+  ],
+  "outputs": {
+    "help": [
+      { "text": "comandos disponibles:", "color": "gold" },
+      { "text": "  whoami      quién es este tipo", "color": "text" },
+      { "text": "  skills      el arsenal técnico", "color": "text" },
+      { "text": "  experience  historial laboral (corto)", "color": "text" },
+      { "text": "  projects    creaciones open-source", "color": "text" },
+      { "text": "  education   el rastro de títulos", "color": "text" },
+      { "text": "  contact     cómo contactarme", "color": "text" },
+      { "text": "  social      github + linkedin", "color": "text" },
+      { "text": "  ls          lista las secciones", "color": "text" },
+      { "text": "  sudo        ni lo intentes", "color": "text" },
+      { "text": "  coffee      importante", "color": "text" },
+      { "text": "  clear       limpia la pantalla", "color": "text" }
+    ],
+    "whoami": [
+      { "text": "Oriol 'Uri' Ustrell i Altayo", "color": "cyan" },
+      {
+        "text": "Desarrollador Full-Stack JS/TS, con inclinación al frontend, afincado en Sabadell.",
+        "color": "text"
+      },
+      {
+        "text": "6+ años publicando código. Psicólogo de carrera, dev por obsesión.",
+        "color": "text"
+      }
+    ],
+    "skills": [
+      { "text": "frontend : React, Next.js, TypeScript, Redux, SASS", "color": "text" },
+      { "text": "backend  : Node.js, PHP/Laravel, .NET/C#, SQL, MongoDB", "color": "text" },
+      { "text": "tooling  : Webpack, Rollup, Jest, Git, Jenkins, CLIs internas", "color": "text" },
+      { "text": "bonus    : microfrontends, SSG/SSR, monorepos", "color": "gold" }
+    ],
+    "experience": [
+      { "text": "MANGO            Frontend Dev Sénior     2020 - ahora", "color": "text" },
+      { "text": "Freelance/OSS    Dev JS (React/Redux)    2019 - ahora", "color": "text" },
+      { "text": "Robotics S.A.    Dev Full-Stack          2019 - 2020", "color": "text" },
+      { "text": "Marfeel          Dev Web Frontend        2018 - 2019", "color": "text" },
+      { "text": "...y una vida pasada creativa entre medios, vídeo y radio.", "color": "dim" }
+    ],
+    "projects": [
+      {
+        "text": "La Micro Comandes  -> ",
+        "color": "text",
+        "href": "https://uri-ustrell.github.io/lamicro-comandes/"
+      },
+      {
+        "text": "Paint (React/Redux)-> ",
+        "color": "text",
+        "href": "https://uri-ustrell.github.io/paint-react-redux/"
+      },
+      {
+        "text": "github.com/uri-ustrell",
+        "color": "cyan",
+        "href": "https://github.com/uri-ustrell"
+      }
+    ],
+    "education": [
+      { "text": "Cal Molins        Desarrollo web          2017-2018", "color": "text" },
+      { "text": "UOC               Grado en Psicología     2015-2017", "color": "text" },
+      { "text": "Institut Gestalt  Máster Practitioner PNL 2015-2016", "color": "text" }
+    ],
+    "contact": [
+      {
+        "text": "email : uri.ustrell@gmail.com",
+        "color": "text",
+        "href": "mailto:uri.ustrell@gmail.com"
+      },
+      { "text": "base  : Sabadell, Cataluña, España", "color": "text" },
+      { "text": "idiomas : español, catalán (nativos) + inglés (pro)", "color": "text" }
+    ],
+    "social": [
+      {
+        "text": "github.com/uri-ustrell",
+        "color": "cyan",
+        "href": "https://github.com/uri-ustrell"
+      },
+      {
+        "text": "linkedin.com/in/uriustrell",
+        "color": "cyan",
+        "href": "https://www.linkedin.com/in/uriustrell/"
+      }
+    ],
+    "ls": [
+      {
+        "text": "about  skills  experience  projects  education  interests  contact",
+        "color": "cyan"
+      }
+    ],
+    "sudo": [
+      { "text": "visitor no está en el archivo sudoers.", "color": "red" },
+      { "text": "Este incidente ha sido reportado. (es broma)", "color": "dim" }
+    ],
+    "coffee": [
+      { "text": "preparando... ERROR: coffee.exe dejó de responder a las 3am.", "color": "gold" },
+      { "text": "comportamiento clásico de frontend.", "color": "dim" }
+    ],
+    "hello": [{ "text": "ey, compañero de viaje  o/", "color": "gold" }],
+    "konami": [{ "text": "★ TRUCO ACTIVADO: curiosidad infinita desbloqueada ★", "color": "pink" }]
+  },
+  "stats": "LVL {level}  ·  {ach}/{achTotal} logros  ·  {coins}/{coinTotal} monedas",
+  "notFound": "comando no encontrado: {cmd}  (prueba 'help')"
+}

@@ -1,0 +1,33 @@
+.section {
+  position: relative;
+  max-width: 1040px;
+  margin: 46px auto 0;
+  padding: 0 20px;
+}
+
+.header {
+  font-family: var(--font-pixel);
+  font-size: 13px;
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: normal;
+}
+
+.numChip {
+  color: var(--bg-page);
+  padding: 5px 7px;
+  box-shadow: 3px 3px 0 #000;
+  flex-shrink: 0;
+}
+
+.tight {
+  margin-top: 34px;
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "links": {
+    "github": "https://github.com/uri-ustrell",
+    "linkedin": "https://www.linkedin.com/in/uriustrell/",
+    "email": "uri.ustrell@gmail.com"
+  },
+  "skillGroups": [
+    {
+      "id": "frontend",
+      "name": "FRONTEND",
+      "items": [
+        { "name": "React · Next.js", "lv": 9 },
+        { "name": "TypeScript · JS", "lv": 9 },
+        { "name": "SASS · CSS", "lv": 8 },
+        { "name": "Redux", "lv": 8 }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "BACKEND",
+      "items": [
+        { "name": "Node.js", "lv": 8 },
+        { "name": "PHP · Laravel", "lv": 6 },
+        { "name": ".NET · C#", "lv": 5 },
+        { "name": "SQL · MongoDB", "lv": 7 }
+      ]
+    },
+    {
+      "id": "tooling",
+      "name": "TOOLING & ENV",
+      "items": [
+        { "name": "Microfrontends", "lv": 9 },
+        { "name": "Webpack · Rollup", "lv": 8 },
+        { "name": "Git · CI/Jenkins", "lv": 8 },
+        { "name": "In-house CLIs", "lv": 9 }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "mango",
+      "org": "MANGO",
+      "start": "2020",
+      "end": null,
+      "accent": "gold",
+      "mainQuest": true,
+      "size": "large",
+      "chipTint": "#9fd8ff",
+      "chips": ["React 17", "Next.js", "Node", "Jest · MSW", "Webpack · Rollup", "Jenkins", "SASS"]
+    },
+    {
+      "id": "freelance",
+      "org": "FREELANCE / OPEN SOURCE",
+      "start": "2019",
+      "end": null,
+      "accent": "purple",
+      "mainQuest": false,
+      "size": "large",
+      "chipTint": null,
+      "chips": []
+    },
+    {
+      "id": "robotics",
+      "org": "ROBOTICS S.A.",
+      "start": "2019",
+      "end": "2020",
+      "accent": "cyan",
+      "mainQuest": false,
+      "size": "large",
+      "chipTint": "#c9b6ff",
+      "chips": [".NET · C#", "VisualBasic", "Razor MVC", "jQuery", "SQL"]
+    },
+    {
+      "id": "marfeel",
+      "org": "MARFEEL",
+      "start": "2018",
+      "end": "2019",
+      "accent": "pink",
+      "mainQuest": false,
+      "size": "large",
+      "chipTint": "#ffb3cf",
+      "chips": ["TypeScript", "Jasmine", "PhantomJS", "MongoDB", "nginx"]
+    },
+    {
+      "id": "adesso",
+      "org": "ADESSO SPAIN",
+      "start": "2018",
+      "end": "2018",
+      "accent": "green",
+      "mainQuest": false,
+      "size": "small",
+      "chipTint": null,
+      "chips": []
+    },
+    {
+      "id": "creating",
+      "org": "CREATING LEARNING",
+      "start": "2018",
+      "end": "2018",
+      "accent": "green",
+      "mainQuest": false,
+      "size": "small",
+      "chipTint": null,
+      "chips": []
+    }
+  ],
+  "pastLives": [
+    { "id": "eralgrup", "org": "Eralgrup", "years": "2016 - 2017" },
+    { "id": "patatabrava", "org": "patatabrava.com", "years": "2014 - 2016" },
+    { "id": "acn", "org": "ACN", "years": "2014" },
+    { "id": "emagister", "org": "Emagister.com", "years": "2013 - 2014" },
+    { "id": "concatel", "org": "Concatel", "years": "2013" },
+    { "id": "radiosabadell", "org": "Radio Sabadell 94.6", "years": "2006 - 2011" }
+  ],
+  "projects": [
+    {
+      "id": "lamicro",
+      "name": "La Micro Comandes",
+      "tag": "APP",
+      "demo": "https://uri-ustrell.github.io/lamicro-comandes/",
+      "code": "https://github.com/uri-ustrell/lamicro-comandes"
+    },
+    {
+      "id": "paint",
+      "name": "Paint",
+      "tag": "REACT·REDUX",
+      "demo": "https://uri-ustrell.github.io/paint-react-redux/",
+      "code": "https://github.com/uri-ustrell/paint-react-redux"
+    },
+    {
+      "id": "starmatch",
+      "name": "Star Match Game",
+      "tag": "GAME",
+      "demo": null,
+      "code": "https://github.com/uri-ustrell/react-star-match-game"
+    },
+    {
+      "id": "holidays",
+      "name": "Holidays Calendar",
+      "tag": "NEXT.JS",
+      "demo": null,
+      "code": "https://github.com/uri-ustrell/holidays-calendar-nextjs"
+    },
+    {
+      "id": "ecommerce",
+      "name": "React E-commerce",
+      "tag": "REACT",
+      "demo": null,
+      "code": "https://github.com/uri-ustrell/react-ecommerce"
+    },
+    {
+      "id": "boilerplate",
+      "name": "Redux Thunk Boilerplate",
+      "tag": "STARTER",
+      "demo": null,
+      "code": "https://github.com/uri-ustrell/boilerplate-init-react-redux-thunk"
+    }
+  ],
+  "education": [
+    { "id": "cfo", "year": "2018" },
+    { "id": "calmolins", "year": "2017" },
+    { "id": "uoc", "year": "2015-2017" },
+    { "id": "gestalt", "year": "2015-2016" }
+  ],
+  "interests": [
+    { "id": "lateral", "accent": "purple" },
+    { "id": "goal", "accent": "green" },
+    { "id": "nlp", "accent": "pink" },
+    { "id": "arts", "accent": "gold" }
+  ],
+  "achievementIcons": {
+    "boot": "GO",
+    "hacker": "HAX",
+    "lore": "LOR",
+    "skill": "SKL",
+    "quest": "QST",
+    "builder": "BLD",
+    "scholar": "EDU",
+    "thinker": "MND",
+    "treasure": "$$$",
+    "complete": "100"
+  },
+  "coinSections": ["hero", "skills", "experience", "projects", "interests"],
+  "sections": [
+    { "id": "terminal", "num": "01", "accent": "green", "achKey": "hacker" },
+    { "id": "about", "num": "02", "accent": "cyan", "achKey": "lore" },
+    { "id": "skills", "num": "03", "accent": "green", "achKey": "skill" },
+    { "id": "experience", "num": "04", "accent": "gold", "achKey": "quest" },
+    { "id": "projects", "num": "05", "accent": "pink", "achKey": "builder" },
+    { "id": "education", "num": "06", "accent": "purple", "achKey": "scholar" },
+    { "id": "interests", "num": "07", "accent": "cyan", "achKey": "thinker" }
+  ],
+  "timings": {
+    "toastMs": 3800,
+    "bootDelayMs": 600,
+    "treasureDelayMs": 250,
+    "beepDecayS": 0.13,
+    "observerThreshold": 0.35
+  },
+  "beeps": {
+    "achievement": 880,
+    "achievementSpecial": 1320,
+    "coin": 1180,
+    "terminalEnter": 720,
+    "terminalClear": 660
+  },
+  "mpPct": 92
+}

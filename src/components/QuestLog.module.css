@@ -1,0 +1,140 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: var(--bg-panel);
+  border: 3px solid #000;
+  border-left: 8px solid var(--gold);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px 22px;
+}
+
+.cardSmall {
+  padding: 18px 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.org {
+  font-family: var(--font-pixel);
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.orgSmall {
+  font-family: var(--font-pixel);
+  font-size: 11px;
+  color: var(--text-primary);
+}
+
+.mainQuest {
+  color: var(--pink);
+  font-size: 9px;
+}
+
+.dates {
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  color: var(--green);
+}
+
+.role {
+  font-size: 20px;
+  color: var(--cyan);
+  margin: 6px 0 8px;
+}
+
+.roleSmall {
+  font-size: 19px;
+  color: var(--cyan);
+  margin: 6px 0 6px;
+}
+
+.blurb {
+  font-size: 19px;
+  color: var(--text-body);
+  line-height: 1.45;
+  margin: 0 0 12px;
+}
+
+.blurb:last-child {
+  margin-bottom: 0;
+}
+
+.blurbSmall {
+  font-size: 18px;
+  color: var(--text-body);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.smallGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.pastLives {
+  background: var(--bg-inset);
+  border: 3px solid #000;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.5);
+  padding: 14px 20px;
+}
+
+.pastLivesSummary {
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  color: var(--purple);
+  cursor: pointer;
+  list-style: none;
+}
+
+.pastLivesSummary::-webkit-details-marker {
+  display: none;
+}
+
+.pastLivesList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.pastLife {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  border-bottom: 2px dotted var(--bg-chip);
+  padding-bottom: 7px;
+}
+
+.pastLifeOrg {
+  color: var(--text-primary);
+  font-size: 19px;
+}
+
+.pastLifeRole {
+  color: var(--text-muted);
+  font-size: 18px;
+}
+
+.pastLifeYears {
+  color: var(--text-faint);
+  font-size: 17px;
+}

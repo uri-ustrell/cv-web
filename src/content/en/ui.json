@@ -1,0 +1,18 @@
+{
+  "metaTitle": "Uri Ustrell — Full-Stack Developer",
+  "metaDescription": "Retro 8-bit gamified CV of Oriol 'Uri' Ustrell — full-stack JS/TS developer based in Sabadell, Catalonia.",
+  "hudName": "URI USTRELL",
+  "hudSubtitle": "Full-Stack Dev",
+  "lvlLabel": "LVL",
+  "xpLabel": "WORLD EXPLORED",
+  "sndOn": "SND:ON",
+  "sndOff": "SND:OFF",
+  "toastTitle": "★ ACHIEVEMENT UNLOCKED",
+  "coinTitleFirst": "a wild coin appears! collect it",
+  "coinTitle": "collect!",
+  "coinTitleLast": "last one!",
+  "playBtn": "▶ PLAY",
+  "codeBtn": "</> CODE",
+  "avatarAlt": "Pixel portrait of Uri Ustrell",
+  "langNames": { "en": "EN", "ca": "CA", "es": "ES" }
+}

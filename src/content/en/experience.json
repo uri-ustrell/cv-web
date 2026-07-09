@@ -1,0 +1,64 @@
+{
+  "title": "QUEST LOG",
+  "mainQuestTag": "◆ MAIN QUEST",
+  "now": "NOW",
+  "jobs": {
+    "mango": {
+      "role": "Senior Frontend Developer",
+      "blurb": [
+        {
+          "text": "Microfrontends at retail scale. Self-built & maintained an in-house Node CLI, plus a stack of shared libraries, tools and SSG pipelines. A continuously-updated environment surrounded by seriously skilled devs."
+        }
+      ]
+    },
+    "freelance": {
+      "role": "JavaScript Developer · React · Redux · React Native",
+      "blurb": [
+        {
+          "text": "A steady stream of side quests: paint apps, holiday calendars, e-commerce, and browser games — all open-sourced. See the "
+        },
+        { "text": "PROJECTS", "href": "#projects" },
+        { "text": " loot below." }
+      ]
+    },
+    "robotics": {
+      "role": "Full-Stack Developer",
+      "blurb": [
+        {
+          "text": "A small team, a whole new world: the .NET stack, Windows tooling and its own architecture. Near home, and a proper challenge."
+        }
+      ]
+    },
+    "marfeel": {
+      "role": "Frontend Web Developer",
+      "blurb": [
+        {
+          "text": "Cutting-edge web at a leading adtech company, learning from a great team. An awesome opportunity to level up fast."
+        }
+      ]
+    },
+    "adesso": {
+      "role": "Laravel & Angular Dev",
+      "blurb": [
+        { "text": "One-month sprint — Laravel on the back, first steps in Angular on the front." }
+      ]
+    },
+    "creating": {
+      "role": "Moodle Front & Back",
+      "blurb": [
+        {
+          "text": "PHP, MariaDB, Mustache & jQuery — theming Moodle for Spain's biggest e-learning distributors."
+        }
+      ]
+    }
+  },
+  "pastLivesTitle": "▸ PAST LIVES (pre-code) — creative, media & sound",
+  "pastLives": {
+    "eralgrup": "Audiovisual Coordinator",
+    "patatabrava": "Online Ad Sales",
+    "acn": "Journalism Intern",
+    "emagister": "Copywriter",
+    "concatel": "Community Manager",
+    "radiosabadell": "Live Sound Technician"
+  }
+}

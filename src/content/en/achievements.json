@@ -1,0 +1,12 @@
+{
+  "boot": { "name": "GAME BOOTED", "sub": "You pressed start. Welcome, Player 1." },
+  "hacker": { "name": "HACKERMAN", "sub": "You used the terminal. Respect." },
+  "lore": { "name": "LORE MASTER", "sub": "Read the backstory." },
+  "skill": { "name": "SKILL TREE", "sub": "Inspected the build." },
+  "quest": { "name": "QUEST LOGGER", "sub": "Opened the quest log." },
+  "builder": { "name": "MASTER BUILDER", "sub": "Browsed the loot." },
+  "scholar": { "name": "SCHOLAR", "sub": "Visited the training grounds." },
+  "thinker": { "name": "DEEP THINKER", "sub": "Found the passive skills." },
+  "treasure": { "name": "TREASURE HUNTER", "sub": "Collected all 5 coins!" },
+  "complete": { "name": "COMPLETIONIST", "sub": "You reached the end. GG." }
+}

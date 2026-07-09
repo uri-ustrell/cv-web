@@ -1,0 +1,66 @@
+{
+  "title": "REGISTRE DE MISSIONS",
+  "mainQuestTag": "◆ MISSIÓ PRINCIPAL",
+  "now": "ARA",
+  "jobs": {
+    "mango": {
+      "role": "Desenvolupador Frontend Sènior",
+      "blurb": [
+        {
+          "text": "Microfrontends a escala retail. He construït i mantingut una CLI interna en Node, a més d'un estol de llibreries compartides, eines i pipelines de SSG. Un entorn en actualització contínua envoltat de devs seriosament bons."
+        }
+      ]
+    },
+    "freelance": {
+      "role": "Desenvolupador JavaScript · React · Redux · React Native",
+      "blurb": [
+        {
+          "text": "Un degoteig constant de missions secundàries: apps de pintar, calendaris de festius, e-commerce i jocs de navegador — tot open-source. Mira el botí de "
+        },
+        { "text": "PROJECTES", "href": "#projects" },
+        { "text": " aquí sota." }
+      ]
+    },
+    "robotics": {
+      "role": "Desenvolupador Full-Stack",
+      "blurb": [
+        {
+          "text": "Un equip petit, tot un món nou: l'stack .NET, les eines de Windows i la seva pròpia arquitectura. A prop de casa, i un bon repte."
+        }
+      ]
+    },
+    "marfeel": {
+      "role": "Desenvolupador Web Frontend",
+      "blurb": [
+        {
+          "text": "Web d'avantguarda en una adtech capdavantera, aprenent d'un gran equip. Una oportunitat brutal per pujar de nivell ràpid."
+        }
+      ]
+    },
+    "adesso": {
+      "role": "Dev Laravel i Angular",
+      "blurb": [
+        {
+          "text": "Un sprint d'un mes — Laravel al darrere, primeres passes amb Angular al davant."
+        }
+      ]
+    },
+    "creating": {
+      "role": "Moodle Front & Back",
+      "blurb": [
+        {
+          "text": "PHP, MariaDB, Mustache i jQuery — creant temes de Moodle per als distribuïdors d'e-learning més grans d'Espanya."
+        }
+      ]
+    }
+  },
+  "pastLivesTitle": "▸ VIDES PASSADES (pre-codi) — creativitat, mèdia i so",
+  "pastLives": {
+    "eralgrup": "Coordinador audiovisual",
+    "patatabrava": "Venda de publicitat online",
+    "acn": "Becari de periodisme",
+    "emagister": "Redactor publicitari",
+    "concatel": "Community Manager",
+    "radiosabadell": "Tècnic de so en directe"
+  }
+}

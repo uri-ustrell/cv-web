@@ -1,0 +1,41 @@
+{
+  "name": "cv-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Retro-pixel gamified CV of Oriol 'Uri' Ustrell — uriustrell.dev",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "npm run lint:biome && npm run lint:types",
+    "lint:biome": "biome lint .",
+    "lint:types": "tsc --noEmit",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "test": "vitest run",
+    "i18n:check": "tsx scripts/checkI18nParity.ts"
+  },
+  "dependencies": {
+    "@fontsource/press-start-2p": "^5.2.7",
+    "@fontsource/vt323": "^5.2.7",
+    "@vercel/analytics": "^2.0.1",
+    "next": "^16.2.10",
+    "next-intl": "^4.13.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.3",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "jsdom": "^29.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10"
+  }
+}

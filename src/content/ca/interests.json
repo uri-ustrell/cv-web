@@ -1,0 +1,22 @@
+{
+  "title": "HABILITATS PASSIVES",
+  "intro": "Bufs fora d'hores i els autors que em van recablejar el cap:",
+  "cards": {
+    "lateral": {
+      "name": "+PENSAMENT LATERAL",
+      "body": "Edward de Bono — ataca el problema de costat."
+    },
+    "goal": {
+      "name": "+LA META",
+      "body": "Eliyahu Goldratt — troba i trenca el coll d'ampolla."
+    },
+    "nlp": {
+      "name": "+PNL",
+      "body": "Bandler & Grinder — el mapa no és el territori."
+    },
+    "arts": {
+      "name": "+ARTS CREATIVES",
+      "body": "Vídeo, motion, so en directe i ràdio — una vida creativa passada."
+    }
+  }
+}

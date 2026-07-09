@@ -1,0 +1,80 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--bg-panel);
+  border: 3px solid #000;
+  box-shadow:
+    inset 0 0 0 3px var(--bg-chip),
+    6px 6px 0 rgba(0, 0, 0, 0.5);
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.name {
+  font-family: var(--font-pixel);
+  font-size: 11px;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.tag {
+  font-size: 15px;
+  color: var(--gold);
+  border: 2px solid #000;
+  background: var(--bg-chip);
+  padding: 1px 6px;
+  flex-shrink: 0;
+}
+
+.desc {
+  font-size: 18px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin: 10px 0 14px;
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.playBtn,
+.codeBtn {
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  border: 2px solid #000;
+  padding: 7px 9px;
+  box-shadow: 2px 2px 0 #000;
+}
+
+.playBtn {
+  color: var(--bg-page);
+  background: var(--green);
+}
+
+.playBtn:hover {
+  color: var(--bg-page);
+}
+
+.codeBtn {
+  color: var(--text-primary);
+  background: var(--bg-chip);
+}
+
+.codeBtn:hover {
+  color: var(--text-primary);
+}

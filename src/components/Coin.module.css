@@ -1,0 +1,29 @@
+.coin {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #fff3b0, var(--gold) 55%, #c78a1a);
+  border: 2px solid #000;
+  cursor: pointer;
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  color: #8a5a0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #ffcf3f88;
+  animation: coinspin 1.6s linear infinite;
+  padding: 0;
+  z-index: 1;
+}
+
+.hero {
+  top: 12px;
+  right: 34px;
+}
+
+.section {
+  top: -6px;
+  right: 30px;
+}

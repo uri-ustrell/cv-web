@@ -1,0 +1,22 @@
+{
+  "title": "PASSIVE SKILLS",
+  "intro": "Off-clock buffs and the authors who rewired my head:",
+  "cards": {
+    "lateral": {
+      "name": "+LATERAL THINKING",
+      "body": "Edward de Bono — attack the problem from the side."
+    },
+    "goal": {
+      "name": "+THE GOAL",
+      "body": "Eliyahu Goldratt — find and break the bottleneck."
+    },
+    "nlp": {
+      "name": "+NLP",
+      "body": "Bandler & Grinder — the map is not the territory."
+    },
+    "arts": {
+      "name": "+CREATIVE ARTS",
+      "body": "Video, motion, live sound & radio — a past creative life."
+    }
+  }
+}
