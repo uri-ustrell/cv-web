@@ -1,5 +1,5 @@
-import '@fontsource/press-start-2p'
-import '@fontsource/vt323'
+import '@fontsource/press-start-2p/index.css'
+import '@fontsource/vt323/index.css'
 import '@/styles/globals.css'
 import { Analytics } from '@vercel/analytics/react'
 import type { ReactNode } from 'react'
