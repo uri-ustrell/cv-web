@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
     "lint": "npm run lint:biome && npm run lint:types",
     "lint:biome": "biome lint .",
     "lint:types": "tsc --noEmit",
