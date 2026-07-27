@@ -1,21 +1,30 @@
 {
   "title": "TRAINING GROUNDS",
   "entries": {
-    "cfo": {
-      "degree": "Web App Development",
-      "org": "CFO Cal Molins — web tech & multimedia"
-    },
-    "calmolins": {
-      "degree": "Web App Development",
-      "org": "Cal Molins — computer programming"
+    "cfoweb": {
+      "degree": "Web Application Development with Web Technologies, Web Page, Digital/Multimedia and Information Resources Design",
+      "org": "CFO Cal Molins — web application development",
+      "description": "Grade: Excellent. Activities and groups: Web application development — server environment, frontend, backend, database, repository, web design and management, object-oriented programming and the model-view-controller pattern. HTML5, CSS3, web design, JavaScript, jQuery, AJAX, PHP, OOP, MVC, CodeIgniter, SQL, GitHub, WordPress, Bootstrap, phpMyAdmin"
     },
     "uoc": {
       "degree": "BSc Psychology",
-      "org": "Universitat Oberta de Catalunya"
+      "org": "Universitat Oberta de Catalunya",
+      "description": "The Psychology degree at UOC is a personal investment in a field that has always interested me. On one hand it complements my knowledge of communication and marketing at a sociological level; on the other, it will bring academic value to knowledge I've long cultivated through research and reading on my own, as a self-taught interest. At a certain point, with reasonably satisfying results, I chose to temporarily set this stage aside, since other interests became more pressing."
     },
     "gestalt": {
       "degree": "NLP Master Practitioner",
-      "org": "Institut Gestalt"
+      "org": "Institut Gestalt",
+      "description": "Training completed at Institut Gestalt in Barcelona. Neuro-Linguistic Programming studies how people function — thought, emotions, and body — that is, their subjective experience. It's a discipline based on observing and modeling the behavior and skills of expert communicators and change facilitators. http://aepnl.com/"
+    },
+    "ef": {
+      "degree": "Level B2-3: Upper Intermediate, English",
+      "org": "EF Executive Language Institute",
+      "description": "I understand the main ideas of complex texts on technical and imaginary topics. I am able to interact regularly with native speakers quite possibly without strain for either party. I can produce detailed language on a wide range of subjects and justify my viewpoint on a topical issue. The EF Cambridge English Level Test awarded this level after a 4-month course in Bournemouth, Dorset, England, between September and December 2012."
+    },
+    "uoccomm": {
+      "degree": "BA in Communication, Marketing/Marketing Management, General",
+      "org": "Universitat Oberta de Catalunya",
+      "description": "The Communication degree at UOC covers journalism and public relations above all, along with audiovisual communication and advertising. The final credits correspond to the specialization (mention) in Corporate Communication and Public Relations. For my final thesis I wrote a critical analysis of the commercialized news system, focused on news agencies — grade: excellent (9)."
     }
   }
 }

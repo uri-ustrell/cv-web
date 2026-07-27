@@ -69,9 +69,9 @@
     ],
     "contact": [
       {
-        "text": "email : uri.ustrell@gmail.com",
+        "text": "email : uri.ustrell@proton.me",
         "color": "text",
-        "href": "mailto:uri.ustrell@gmail.com"
+        "href": "mailto:uri.ustrell@proton.me"
       },
       { "text": "based : Sabadell, Catalonia, Spain", "color": "text" },
       { "text": "langs : Espanol, Catala (native) + English (pro)", "color": "text" }

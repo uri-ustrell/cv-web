@@ -3,26 +3,26 @@
   "paragraphs": [
     [
       { "text": "A frontend-leaning full-stack dev with " },
-      { "text": "6+ years", "accent": "gold" },
+      { "text": "8+ years", "accent": "gold" },
       {
-        "text": " shipping JavaScript & TypeScript at scale. By day I build microfrontends, in-house CLIs and shared libraries; by night I'm still doing basically the same thing, but for fun."
+        "text": " shipping JavaScript & TypeScript in a structured and continuous way. By day I build web interfaces, in-house CLIs and shared libraries; by night I'm still doing basically the same thing, but for fun."
       }
     ],
     [
       { "text": "Plot twist: I've got a " },
-      { "text": "degree in Psychology", "accent": "cyan" },
+      { "text": "degree in Communication", "accent": "cyan" },
       {
-        "text": " and a past life in audiovisual production and radio. Turns out understanding humans is a decent debugger for building things they'll actually use."
+        "text": " and a past life in audiovisual production and radio. Turns out, deep down, I've always been more interested in technical creativity."
       }
     ],
     [
-      { "text": "My philosophy comes from three mentors I never met: " },
-      { "text": "de Bono", "accent": "purple" },
-      { "text": " (think sideways), " },
-      { "text": "Goldratt", "accent": "purple" },
-      { "text": " (find the bottleneck), and " },
-      { "text": "Bandler & Grinder", "accent": "purple" },
-      { "text": " (mind the map, not the territory)." }
+      {
+        "text": "My interests, concerns and initiatives have fluctuated over time — some have been more occasional, others more constant. Still, I think I can recognize a few patterns that show up more permanently: a focus on structural improvement that defines us socially from collectivity, a willingness to collaborate with initiatives rooted in the local community, a formal and practical interest in health and lifestyles, and an understanding of individual perspectives and feelings, useful for building a robust, conscious empathy. In the end, that same interest in the tech behind things is what led me to partially pursue a "
+      },
+      { "text": "degree in Psychology", "accent": "purple" },
+      { "text": " and a " },
+      { "text": "Master's in NLP", "accent": "purple" },
+      { "text": ": unpacking the technical and mechanical workings of the mind." }
     ]
   ]
 }

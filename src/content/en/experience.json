@@ -8,6 +8,9 @@
       "blurb": [
         {
           "text": "Microfrontends at retail scale. Self-built & maintained an in-house Node CLI, plus a stack of shared libraries, tools and SSG pipelines. A continuously-updated environment surrounded by seriously skilled devs."
+        },
+        {
+          "text": "Stack migrated to server-side rendering with client-side rehydration, using an ISR strategy, on the latest versions of Next.js. Deployed on Vercel, whose backoffice has improved a lot lately."
         }
       ]
     },

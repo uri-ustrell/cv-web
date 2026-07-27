@@ -58,7 +58,7 @@ export interface ProjectsContent {
 
 export interface EducationContent {
   title: string
-  entries: Record<string, { degree: string; org: string }>
+  entries: Record<string, { degree: string; org: string; description?: string }>
 }
 
 export interface InterestsContent {
@@ -146,7 +146,7 @@ export interface SharedContent {
     code: string
   }[]
   education: { id: string; year: string }[]
-  interests: { id: string; accent: Accent }[]
+  interests: { id: string; accent: Accent; demo: string | null }[]
   achievementIcons: Record<AchievementKey, string>
   coinSections: string[]
   sections: { id: string; num: string; accent: Accent; achKey: AchievementKey }[]

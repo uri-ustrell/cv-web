@@ -3,26 +3,26 @@
   "paragraphs": [
     [
       { "text": "Un dev full-stack con inclinación al frontend y " },
-      { "text": "6+ años", "accent": "gold" },
+      { "text": "8+ años", "accent": "gold" },
       {
-        "text": " publicando JavaScript y TypeScript a gran escala. De día construyo microfrontends, CLIs internas y librerías compartidas; de noche sigo haciendo básicamente lo mismo, pero por diversión."
+        "text": " publicando JavaScript y TypeScript de forma estructurada y continua. De día construyo interfaces web, CLIs internas y librerías compartidas; de noche sigo haciendo básicamente lo mismo, pero por diversión."
       }
     ],
     [
       { "text": "Giro de guion: tengo una " },
-      { "text": "licenciatura en Psicología", "accent": "cyan" },
+      { "text": "carrera en Comunicación", "accent": "cyan" },
       {
-        "text": " y una vida pasada en producción audiovisual y radio. Resulta que entender a los humanos es un buen depurador para construir cosas que la gente usará de verdad."
+        "text": " y una vida pasada en producción audiovisual y radio. Resulta que, en el fondo, siempre he estado más interesado en la creatividad técnica."
       }
     ],
     [
-      { "text": "Mi filosofía viene de tres mentores que nunca conocí: " },
-      { "text": "de Bono", "accent": "purple" },
-      { "text": " (piensa de lado), " },
-      { "text": "Goldratt", "accent": "purple" },
-      { "text": " (encuentra el cuello de botella) y " },
-      { "text": "Bandler & Grinder", "accent": "purple" },
-      { "text": " (ojo con el mapa, no con el territorio)." }
+      {
+        "text": "Mis intereses, inquietudes e iniciativas han fluctuado a lo largo del tiempo; algunos han sido más puntuales y otros más constantes. Aun así, creo reconocer algunos patrones presentes de forma más permanente: el enfoque hacia una mejora estructural que nos defina socialmente desde la colectividad, la voluntad de colaborar con iniciativas arraigadas en el territorio, el interés formal y práctico en la salud y los estilos de vida, la comprensión de las perspectivas y sensaciones individuales, útil para construir una empatía robusta y consciente. Al fin y al cabo, ese mismo interés por la técnica que hay detrás de las cosas es lo que me llevó a cursar parcialmente una "
+      },
+      { "text": "carrera en Psicología", "accent": "purple" },
+      { "text": " y un " },
+      { "text": "máster en PNL", "accent": "purple" },
+      { "text": ": desentrañar el funcionamiento técnico y mecánico de la mente." }
     ]
   ]
 }

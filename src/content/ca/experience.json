@@ -8,11 +8,14 @@
       "blurb": [
         {
           "text": "Microfrontends a escala retail. He construït i mantingut una CLI interna en Node, a més d'un estol de llibreries compartides, eines i pipelines de SSG. Un entorn en actualització contínua envoltat de devs seriosament bons."
+        },
+        {
+          "text": "Stack migrat a un render SSR amb rehidratació al client, amb estratègia ISR, sobre les últimes versions de Next.js. Desplegat a Vercel, el backoffice del qual ha millorat molt últimament."
         }
       ]
     },
     "freelance": {
-      "role": "Desenvolupador JavaScript · React · Redux · React Native",
+      "role": "Desenvolupador JavaScript",
       "blurb": [
         {
           "text": "Un degoteig constant de missions secundàries: apps de pintar, calendaris de festius, e-commerce i jocs de navegador — tot open-source. Mira el botí de "

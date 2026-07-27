@@ -1,21 +1,30 @@
 {
   "title": "CAMPO DE ENTRENAMIENTO",
   "entries": {
-    "cfo": {
-      "degree": "Desarrollo de aplicaciones web",
-      "org": "CFO Cal Molins — tecnología web y multimedia"
-    },
-    "calmolins": {
-      "degree": "Desarrollo de aplicaciones web",
-      "org": "Cal Molins — programación informática"
+    "cfoweb": {
+      "degree": "Desarrollo de aplicaciones con tecnologías web, Web Page, Digital/Multimedia and Information Resources Design",
+      "org": "CFO Cal Molins — desarrollo de aplicaciones web",
+      "description": "Nota: Excelente. Actividades y grupos: Desarrollo de aplicaciones web, entorno servidor, frontend, backend, base de datos, repositorio, diseño y gestión web, programación orientada a objetos y mediante el patrón modelo-vista-controlador. HTML5, CSS3, web design, JavaScript, jQuery, AJAX, PHP, OOP, MVC, CodeIgniter, SQL, GitHub, Wordpress, Bootstrap, phpmyadmin"
     },
     "uoc": {
       "degree": "Grado en Psicología",
-      "org": "Universitat Oberta de Catalunya"
+      "org": "Universitat Oberta de Catalunya",
+      "description": "La carrera de Psicología en la UOC es una inversión personal en un campo que siempre me ha interesado. Por un lado complementa mis conocimientos de comunicación y marketing a un nivel sociológico; por otro, aportará un valor académico a unos conocimientos que llevo tiempo cultivando a través de la investigación y la lectura a título personal, de forma autodidacta. Llegado un cierto punto y con unos resultados suficientemente satisfactorios, opté por dejar temporalmente aparcada esta etapa, ya que otros intereses me resultaban más apremiantes."
     },
     "gestalt": {
       "degree": "Máster Practitioner en PNL",
-      "org": "Institut Gestalt"
+      "org": "Institut Gestalt",
+      "description": "Formación cursada en el Institut Gestalt de Barcelona. La Programación Neurolingüística estudia el funcionamiento de las personas (pensamiento, emociones y cuerpo), es decir, su experiencia subjetiva. Es una disciplina basada en la observación y el modelado de la conducta y las habilidades de expertos comunicadores y facilitadores del cambio. http://aepnl.com/"
+    },
+    "ef": {
+      "degree": "Nivel B2-3: Upper Intermediate, Inglés",
+      "org": "EF Executive Language Institute",
+      "description": "Comprendo las ideas principales de textos complejos sobre temas técnicos e imaginarios. Soy capaz de interactuar con regularidad con hablantes nativos, muy probablemente sin tensión para ninguna de las dos partes. Puedo producir un lenguaje detallado sobre una amplia gama de temas y justificar mi punto de vista sobre un tema de actualidad. El EF Cambridge English Level Test me otorgó este nivel tras un curso de 4 meses en Bournemouth, Dorset, Inglaterra, entre septiembre y diciembre de 2012."
+    },
+    "uoccomm": {
+      "degree": "Grado en Comunicación, Marketing/Gestión de marketing, general",
+      "org": "Universitat Oberta de Catalunya",
+      "description": "El grado de Comunicación en la UOC engloba conocimientos de periodismo y relaciones públicas, sobre todo, y también de comunicación audiovisual y publicidad. Los últimos créditos corresponden a la mención (especialización) en Comunicación Corporativa y Relaciones Públicas. En el trabajo final de carrera hago un análisis crítico del sistema mercantilizado de las noticias, centrado en las agencias de noticias; la calificación es de excelente (9)."
     }
   }
 }

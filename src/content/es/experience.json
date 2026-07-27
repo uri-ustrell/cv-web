@@ -8,6 +8,9 @@
       "blurb": [
         {
           "text": "Microfrontends a escala retail. Construí y mantengo una CLI interna en Node, además de un arsenal de librerías compartidas, herramientas y pipelines de SSG. Un entorno en actualización continua rodeado de devs realmente buenos."
+        },
+        {
+          "text": "Stack migrado a un renderizado SSR con rehidratación en el cliente, con estrategia ISR, sobre las últimas versiones de Next.js. Desplegado en Vercel, cuyo backoffice ha mejorado mucho últimamente."
         }
       ]
     },

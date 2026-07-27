@@ -30,7 +30,7 @@ describe('runCommand', () => {
     ['skills', 'frontend : React, Next.js, TypeScript, Redux, SASS'],
     ['experience', 'MANGO            Senior Frontend Dev     2020 - now'],
     ['education', 'Cal Molins        Web App Development     2017-2018'],
-    ['contact', 'email : uri.ustrell@gmail.com'],
+    ['contact', 'email : uri.ustrell@proton.me'],
     ['social', 'github.com/uri-ustrell'],
     ['ls', 'about  skills  experience  projects  education  interests  contact'],
     ['sudo', 'visitor is not in the sudoers file.'],

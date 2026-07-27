@@ -2,7 +2,7 @@
   "links": {
     "github": "https://github.com/uri-ustrell",
     "linkedin": "https://www.linkedin.com/in/uriustrell/",
-    "email": "uri.ustrell@gmail.com"
+    "email": "uri.ustrell@proton.me"
   },
   "skillGroups": [
     {
@@ -12,7 +12,8 @@
         { "name": "React · Next.js", "lv": 9 },
         { "name": "TypeScript · JS", "lv": 9 },
         { "name": "SASS · CSS", "lv": 8 },
-        { "name": "Redux", "lv": 8 }
+        { "name": "Testing (Jest/Vitest/RTL)", "lv": 7 },
+        { "name": "Accessibility (a11y)", "lv": 6 }
       ]
     },
     {
@@ -20,17 +21,18 @@
       "name": "BACKEND",
       "items": [
         { "name": "Node.js", "lv": 8 },
-        { "name": "PHP · Laravel", "lv": 6 },
-        { "name": ".NET · C#", "lv": 5 },
-        { "name": "SQL · MongoDB", "lv": 7 }
+        { "name": "PHP · Laravel", "lv": 5 },
+        { "name": "SQL · MongoDB", "lv": 5 },
+        { "name": "REST/GraphQL API design", "lv": 7 },
+        { "name": "AWS / Cloud", "lv": 4 }
       ]
     },
     {
       "id": "tooling",
       "name": "TOOLING & ENV",
       "items": [
-        { "name": "Microfrontends", "lv": 9 },
-        { "name": "Webpack · Rollup", "lv": 8 },
+        { "name": "Docker", "lv": 6 },
+        { "name": "Webpack · Rollup · Turbo", "lv": 8 },
         { "name": "Git · CI/Jenkins", "lv": 8 },
         { "name": "In-house CLIs", "lv": 9 }
       ]
@@ -45,19 +47,28 @@
       "accent": "gold",
       "mainQuest": true,
       "size": "large",
-      "chipTint": "#9fd8ff",
-      "chips": ["React 17", "Next.js", "Node", "Jest · MSW", "Webpack · Rollup", "Jenkins", "SASS"]
+      "chipTint": "#ffe9a8",
+      "chips": [
+        "React",
+        "Next.js",
+        "Node",
+        "MSW · Vitest · Testing Library",
+        "Webpack · Rollup",
+        "Jenkins",
+        "SASS",
+        "Playwright"
+      ]
     },
     {
       "id": "freelance",
       "org": "FREELANCE / OPEN SOURCE",
-      "start": "2019",
+      "start": "2018",
       "end": null,
       "accent": "purple",
       "mainQuest": false,
       "size": "large",
-      "chipTint": null,
-      "chips": []
+      "chipTint": "#cbb0ff",
+      "chips": ["React", "Redux", "React Native", "Node", "Next.js", "Jest"]
     },
     {
       "id": "robotics",
@@ -67,7 +78,7 @@
       "accent": "cyan",
       "mainQuest": false,
       "size": "large",
-      "chipTint": "#c9b6ff",
+      "chipTint": "#99e7f1",
       "chips": [".NET · C#", "VisualBasic", "Razor MVC", "jQuery", "SQL"]
     },
     {
@@ -89,7 +100,7 @@
       "accent": "green",
       "mainQuest": false,
       "size": "small",
-      "chipTint": null,
+      "chipTint": "#9ef9b9",
       "chips": []
     },
     {
@@ -100,7 +111,7 @@
       "accent": "green",
       "mainQuest": false,
       "size": "small",
-      "chipTint": null,
+      "chipTint": "#9ef9b9",
       "chips": []
     }
   ],
@@ -157,16 +168,17 @@
     }
   ],
   "education": [
-    { "id": "cfo", "year": "2018" },
-    { "id": "calmolins", "year": "2017" },
+    { "id": "cfoweb", "year": "2018" },
     { "id": "uoc", "year": "2015-2017" },
-    { "id": "gestalt", "year": "2015-2016" }
+    { "id": "gestalt", "year": "2015-2016" },
+    { "id": "ef", "year": "2012" },
+    { "id": "uoccomm", "year": "2009-2014" }
   ],
   "interests": [
-    { "id": "lateral", "accent": "purple" },
-    { "id": "goal", "accent": "green" },
-    { "id": "nlp", "accent": "pink" },
-    { "id": "arts", "accent": "gold" }
+    { "id": "lateral", "accent": "purple", "demo": null },
+    { "id": "goal", "accent": "green", "demo": null },
+    { "id": "nlp", "accent": "pink", "demo": null },
+    { "id": "arts", "accent": "gold", "demo": "https://vimeo.com/uriustrell" }
   ],
   "achievementIcons": {
     "boot": "GO",

@@ -3,26 +3,26 @@
   "paragraphs": [
     [
       { "text": "Un dev full-stack tirant a frontend amb " },
-      { "text": "6+ anys", "accent": "gold" },
+      { "text": "8+ anys", "accent": "gold" },
       {
-        "text": " publicant JavaScript i TypeScript a gran escala. De dia construeixo microfrontends, CLIs internes i llibreries compartides; de nit segueixo fent bàsicament el mateix, però per diversió."
+        "text": " publicant JavaScript i TypeScript de forma estructurada i contínua. De dia construeixo interfícies web, CLIs internes i llibreries compartides; de nit segueixo fent bàsicament el mateix, però per diversió."
       }
     ],
     [
-      { "text": "Gir de guió: tinc una " },
-      { "text": "llicenciatura en Psicologia", "accent": "cyan" },
+      { "text": "Gir de guió: tinc un " },
+      { "text": "Grau en comunicació", "accent": "cyan" },
       {
-        "text": " i una vida passada en producció audiovisual i ràdio. Resulta que entendre els humans és un bon depurador per construir coses que la gent farà servir de debò."
+        "text": " i una vida passada en producció audiovisual i ràdio. Resulta que, en el fons, sempre he estat més interessat en la creativitat tècnica."
       }
     ],
     [
-      { "text": "La meva filosofia ve de tres mentors que mai no vaig conèixer: " },
-      { "text": "de Bono", "accent": "purple" },
-      { "text": " (pensa de costat), " },
-      { "text": "Goldratt", "accent": "purple" },
-      { "text": " (troba el coll d'ampolla) i " },
-      { "text": "Bandler & Grinder", "accent": "purple" },
-      { "text": " (compte amb el mapa, no amb el territori)." }
+      {
+        "text": "Els meus interessos, inquietuds i iniciatives han fluctuat al llarg del temps, alguns han sigut més puntuals i d'altres més constants. Amb tot, crec reconèixer alguns patrons presents de forma més permanent: l'enfoc a una millora estructural que ens defineixi socialment des de la col·lectivitat, la voluntat de col·laborar amb iniciatives arrelades al territori, l'interès formal i pràctic en la salut i estils de vida, la comprensió de les perspectives i sensacions individuals, útil per a construir una empatia robusta i conscient. Al capdavall, aquest mateix interès per la tècnica que hi ha darrere de les coses és el que em va portar a cursar parcialment un "
+      },
+      { "text": "grau en psicologia", "accent": "purple" },
+      { "text": " i un " },
+      { "text": "màster en PNL", "accent": "purple" },
+      { "text": ": desmuntar el funcionament tècnic i mecànic de la ment." }
     ]
   ]
 }

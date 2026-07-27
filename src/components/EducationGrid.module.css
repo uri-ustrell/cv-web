@@ -31,3 +31,10 @@
   color: var(--text-muted);
   margin-top: 5px;
 }
+
+.description {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-top: 10px;
+}
