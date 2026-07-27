@@ -1,4 +1,5 @@
 import type { ProjectsContent, SharedContent, UiContent } from '@/content/types'
+import { PlayButton } from './PlayButton'
 import styles from './ProjectGrid.module.css'
 
 interface ProjectGridProps {
@@ -17,11 +18,7 @@ export const ProjectGrid = ({ projects, copy, ui }: ProjectGridProps) => (
         </div>
         <p className={styles.desc}>{copy.descriptions[project.id]}</p>
         <div className={styles.buttons}>
-          {project.demo && (
-            <a href={project.demo} target="_blank" rel="noreferrer" className={styles.playBtn}>
-              {ui.playBtn}
-            </a>
-          )}
+          {project.demo && <PlayButton href={project.demo} label={ui.playBtn} />}
           <a href={project.code} target="_blank" rel="noreferrer" className={styles.codeBtn}>
             {ui.codeBtn}
           </a>

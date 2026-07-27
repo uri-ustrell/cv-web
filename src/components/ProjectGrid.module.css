@@ -52,25 +52,12 @@
   flex-wrap: wrap;
 }
 
-.playBtn,
 .codeBtn {
   font-family: var(--font-pixel);
   font-size: 8px;
   border: 2px solid #000;
   padding: 7px 9px;
   box-shadow: 2px 2px 0 #000;
-}
-
-.playBtn {
-  color: var(--bg-page);
-  background: var(--green);
-}
-
-.playBtn:hover {
-  color: var(--bg-page);
-}
-
-.codeBtn {
   color: var(--text-primary);
   background: var(--bg-chip);
 }

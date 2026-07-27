@@ -37,3 +37,10 @@
   font-size: 19px;
   color: var(--text-muted);
 }
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
