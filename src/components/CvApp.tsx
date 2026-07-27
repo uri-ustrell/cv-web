@@ -164,7 +164,7 @@ export const CvApp = ({ locale, content, shared, avatarSrc }: CvAppProps) => {
           title={content.interests.title}
           coin={sectionCoin('interests', content.ui.coinTitleLast)}
         >
-          <InterestsPanel interests={shared.interests} copy={content.interests} />
+          <InterestsPanel interests={shared.interests} copy={content.interests} ui={content.ui} />
         </Section>
 
         <ContactPanel
