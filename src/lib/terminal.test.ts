@@ -1,8 +1,14 @@
 import { describe, expect, it } from 'vitest'
-import enTerminal from '@/content/en/terminal.json'
+import { getContent, shared } from '@/content'
 import { runCommand, type TerminalContent, type TerminalStats } from './terminal'
+import { deriveTerminalOutputs } from './terminalDerive'
 
-const content = enTerminal as unknown as TerminalContent
+const en = getContent('en')
+
+const content: TerminalContent = {
+  ...en.terminal,
+  outputs: { ...en.terminal.outputs, ...deriveTerminalOutputs(en, shared) },
+}
 
 const stats: TerminalStats = {
   level: 3,
@@ -22,32 +28,43 @@ describe('runCommand', () => {
   it('returns the help table', () => {
     const lines = linesOf('help')
     expect(lines[0]).toEqual({ text: 'available commands:', color: 'gold' })
-    expect(lines).toHaveLength(12)
+    expect(lines).toHaveLength(13)
   })
 
   it.each([
-    ['whoami', "Oriol 'Uri' Ustrell i Altayó"],
-    ['skills', 'frontend : React, Next.js, TypeScript, Redux, SASS'],
-    ['experience', 'MANGO            Senior Frontend Dev     2020 - now'],
-    ['education', 'Cal Molins        Web App Development     2017-2018'],
-    ['contact', 'email : uri.ustrell@proton.me'],
+    ['whoami', 'Uri Ustrell'],
+    ['skills', 'frontend      : '],
+    ['experience', 'MANGO'],
+    ['education', '2018'],
+    ['contact', 'email   : uri.ustrell@proton.me'],
     ['social', 'github.com/uri-ustrell'],
     ['ls', 'about  skills  experience  projects  education  interests  contact'],
     ['sudo', 'visitor is not in the sudoers file.'],
     ['coffee', 'brewing... ERROR: coffee.exe stopped responding at 3am.'],
     ['hello', 'hey there, fellow traveler  o/'],
   ])("'%s' returns its content output", (cmd, firstLine) => {
-    expect(linesOf(cmd)[0]?.text).toBe(firstLine)
+    expect(linesOf(cmd)[0]?.text).toContain(firstLine)
   })
 
   it('renders project links with hrefs', () => {
     const lines = linesOf('projects')
     expect(lines[0]?.href).toBe('https://uri-ustrell.github.io/lamicro-comandes/')
-    expect(lines[2]?.href).toBe('https://github.com/uri-ustrell')
+    expect(lines.at(-1)?.href).toBe('https://github.com/uri-ustrell')
+  })
+
+  it('documents buffs in help and in the hint', () => {
+    const helpText = linesOf('help')
+      .map((line) => line.text)
+      .join('\n')
+    expect(helpText).toMatch(/buffs/)
+    expect(en.terminal.hint).toMatch(/buffs/)
+    expect(linesOf('buffs').length).toBeGreaterThan(1)
   })
 
   it.each([
     ['about', 'whoami'],
+    ['passives', 'buffs'],
+    ['interests', 'buffs'],
     ['work', 'experience'],
     ['links', 'social'],
     ['hi', 'hello'],

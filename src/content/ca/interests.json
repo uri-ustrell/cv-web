@@ -1,6 +1,6 @@
 {
   "title": "HABILITATS PASSIVES",
-  "intro": "Ara mateix: quilòmetres, fisiologia i temps de qualitat amb l'Olívia i la Queralt — la resta són lectures d'una altra vida:",
+  "intro": "Ara mateix: quilòmetres, fisiologia, política i temps de qualitat amb la família — la resta són lectures d'una altra vida:",
   "cards": {
     "familia": {
       "name": "+FAMÍLIA",
@@ -21,14 +21,6 @@
     "arts": {
       "name": "+ARTS CREATIVES",
       "body": "Vídeo, motion, so en directe i ràdio — una vida creativa passada."
-    },
-    "lateral": {
-      "name": "+PENSAMENT LATERAL",
-      "body": "Edward de Bono — ataca el problema de costat."
-    },
-    "goal": {
-      "name": "+LA META",
-      "body": "Eliyahu Goldratt — troba i trenca el coll d'ampolla."
     },
     "nlp": {
       "name": "+PNL",

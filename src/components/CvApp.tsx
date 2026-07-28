@@ -1,8 +1,10 @@
 'use client'
 
+import { useMemo } from 'react'
 import type { LocaleContent, SharedContent } from '@/content/types'
 import { useGameState } from '@/hooks/useGameState'
 import type { Locale } from '@/lib/locales'
+import { deriveTerminalOutputs } from '@/lib/terminalDerive'
 import { AboutPanel } from './AboutPanel'
 import { Coin } from './Coin'
 import { ContactPanel } from './ContactPanel'
@@ -40,6 +42,15 @@ export const CvApp = ({ locale, content, shared, avatarSrc }: CvAppProps) => {
       collected={game.collectedCoins.has(id)}
       onCollect={game.collectCoin}
     />
+  )
+
+  // Data commands are derived from the section content so the terminal cannot drift.
+  const terminalContent = useMemo(
+    () => ({
+      ...content.terminal,
+      outputs: { ...content.terminal.outputs, ...deriveTerminalOutputs(content, shared) },
+    }),
+    [content, shared]
   )
 
   const terminal = sectionMeta(shared, 'terminal')
@@ -85,7 +96,7 @@ export const CvApp = ({ locale, content, shared, avatarSrc }: CvAppProps) => {
           tight
         >
           <Terminal
-            content={content.terminal}
+            content={terminalContent}
             getStats={() => ({
               level: game.level,
               achievements: game.achievementCount,

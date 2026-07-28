@@ -181,8 +181,6 @@
     { "id": "lifestyle", "accent": "green", "demo": null },
     { "id": "politica", "accent": "red", "demo": null },
     { "id": "arts", "accent": "gold", "demo": "https://vimeo.com/uriustrell" },
-    { "id": "lateral", "accent": "purple", "demo": null },
-    { "id": "goal", "accent": "green", "demo": null },
     { "id": "nlp", "accent": "pink", "demo": null }
   ],
   "achievementIcons": {

@@ -41,6 +41,8 @@ const ALIASES: Record<string, string> = {
   level: 'xp',
   'up up down down': 'konami',
   cls: 'clear',
+  passives: 'buffs',
+  interests: 'buffs',
 }
 
 const CONTENT_COMMANDS = new Set([
@@ -53,6 +55,7 @@ const CONTENT_COMMANDS = new Set([
   'contact',
   'social',
   'ls',
+  'buffs',
   'sudo',
   'coffee',
   'hello',

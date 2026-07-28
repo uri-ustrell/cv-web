@@ -1,6 +1,6 @@
 {
   "title": "PASSIVE SKILLS",
-  "intro": "Right now: miles, physiology and quality time with Olívia and Queralt — the rest are readings from another life:",
+  "intro": "Right now: miles, physiology, politics, and quality time with the family — the rest are readings from another life:",
   "cards": {
     "familia": {
       "name": "+FAMILY",
@@ -21,14 +21,6 @@
     "arts": {
       "name": "+CREATIVE ARTS",
       "body": "Video, motion, live sound & radio — a past creative life."
-    },
-    "lateral": {
-      "name": "+LATERAL THINKING",
-      "body": "Edward de Bono — attack the problem from the side."
-    },
-    "goal": {
-      "name": "+THE GOAL",
-      "body": "Eliyahu Goldratt — find and break the bottleneck."
     },
     "nlp": {
       "name": "+NLP",

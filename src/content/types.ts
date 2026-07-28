@@ -83,7 +83,15 @@ export interface TerminalSectionContent {
   placeholder: string
   hint: string
   boot: TermLine[]
+  /** Flavor-only commands. Data-driven ones come from `deriveTerminalOutputs`. */
   outputs: Record<string, TermLine[]>
+  /** Row labels the derived outputs need and no other namespace provides. */
+  labels: {
+    email: string
+    base: string
+    languages: string
+    languagesValue: string
+  }
   stats: string
   notFound: string
 }

@@ -3,7 +3,7 @@
   "windowTitle": "uri@cv:~",
   "prompt": "visitor@uri:~$",
   "placeholder": "prova: help",
-  "hint": "ordres: help · whoami · skills · projects · experience · education · contact · sudo · coffee · clear",
+  "hint": "ordres: help · whoami · skills · projects · experience · education · buffs · contact · sudo · coffee · clear",
   "boot": [
     { "text": "URI-OS v6.0  (c) 1986-2026 uri.ustrell", "color": "dim" },
     { "text": "arrencant curriculum.exe ... OK", "color": "green" },
@@ -17,82 +17,13 @@
       { "text": "  experience  historial laboral (curt)", "color": "text" },
       { "text": "  projects    creacions open-source", "color": "text" },
       { "text": "  education   el rastre de títols", "color": "text" },
+      { "text": "  buffs       habilitats passives", "color": "text" },
       { "text": "  contact     com contactar-me", "color": "text" },
       { "text": "  social      github + linkedin", "color": "text" },
       { "text": "  ls          llista les seccions", "color": "text" },
       { "text": "  sudo        ni ho intentis", "color": "text" },
       { "text": "  coffee      important", "color": "text" },
       { "text": "  clear       neteja la pantalla", "color": "text" }
-    ],
-    "whoami": [
-      { "text": "Oriol 'Uri' Ustrell i Altayó", "color": "cyan" },
-      {
-        "text": "Desenvolupador Full-Stack JS/TS, tirant a frontend, establert a Sabadell.",
-        "color": "text"
-      },
-      { "text": "6+ anys publicant codi. Psicòleg de carrera, dev per obsessió.", "color": "text" }
-    ],
-    "skills": [
-      { "text": "frontend : React, Next.js, TypeScript, Redux, SASS", "color": "text" },
-      { "text": "backend  : Node.js, PHP/Laravel, .NET/C#, SQL, MongoDB", "color": "text" },
-      { "text": "tooling  : Webpack, Rollup, Jest, Git, Jenkins, CLIs internes", "color": "text" },
-      { "text": "bonus    : microfrontends, SSG/SSR, monorepos", "color": "gold" }
-    ],
-    "experience": [
-      { "text": "MANGO            Frontend Dev Sènior     2020 - ara", "color": "text" },
-      { "text": "Freelance/OSS    Dev JS (React/Redux)    2019 - ara", "color": "text" },
-      { "text": "Robotics S.A.    Dev Full-Stack          2019 - 2020", "color": "text" },
-      { "text": "Marfeel          Dev Web Frontend        2018 - 2019", "color": "text" },
-      { "text": "...i una vida passada creativa entre mèdia, vídeo i ràdio.", "color": "dim" }
-    ],
-    "projects": [
-      {
-        "text": "La Micro Comandes  -> ",
-        "color": "text",
-        "href": "https://uri-ustrell.github.io/lamicro-comandes/"
-      },
-      {
-        "text": "Paint (React/Redux)-> ",
-        "color": "text",
-        "href": "https://uri-ustrell.github.io/paint-react-redux/"
-      },
-      {
-        "text": "github.com/uri-ustrell",
-        "color": "cyan",
-        "href": "https://github.com/uri-ustrell"
-      }
-    ],
-    "education": [
-      { "text": "Cal Molins        Desenvolupament web     2017-2018", "color": "text" },
-      { "text": "UOC               Grau en Psicologia      2015-2017", "color": "text" },
-      { "text": "Institut Gestalt  Màster Practitioner PNL 2015-2016", "color": "text" }
-    ],
-    "contact": [
-      {
-        "text": "email : uri.ustrell@proton.me",
-        "color": "text",
-        "href": "mailto:uri.ustrell@proton.me"
-      },
-      { "text": "base  : Sabadell, Catalunya", "color": "text" },
-      { "text": "idiomes : espanyol, català (natius) + anglès (pro)", "color": "text" }
-    ],
-    "social": [
-      {
-        "text": "github.com/uri-ustrell",
-        "color": "cyan",
-        "href": "https://github.com/uri-ustrell"
-      },
-      {
-        "text": "linkedin.com/in/uriustrell",
-        "color": "cyan",
-        "href": "https://www.linkedin.com/in/uriustrell/"
-      }
-    ],
-    "ls": [
-      {
-        "text": "about  skills  experience  projects  education  interests  contact",
-        "color": "cyan"
-      }
     ],
     "sudo": [
       { "text": "visitor no és al fitxer sudoers.", "color": "red" },
@@ -107,6 +38,12 @@
     ],
     "hello": [{ "text": "ei, company de viatge  o/", "color": "gold" }],
     "konami": [{ "text": "★ TRUC ACTIVAT: curiositat infinita desbloquejada ★", "color": "pink" }]
+  },
+  "labels": {
+    "email": "email",
+    "base": "base",
+    "languages": "idiomes",
+    "languagesValue": "espanyol, català (natius) + anglès (pro)"
   },
   "stats": "LVL {level}  ·  {ach}/{achTotal} assoliments  ·  {coins}/{coinTotal} monedes",
   "notFound": "ordre no trobada: {cmd}  (prova 'help')"
