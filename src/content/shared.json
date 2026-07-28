@@ -34,7 +34,8 @@
         { "name": "Docker", "lv": 6 },
         { "name": "Webpack · Rollup · Turbo", "lv": 8 },
         { "name": "Git · CI/Jenkins", "lv": 8 },
-        { "name": "In-house CLIs", "lv": 9 }
+        { "name": "In-house CLIs", "lv": 9 },
+        { "name": "Dynatrace", "lv": 6 }
       ]
     }
   ],
@@ -178,6 +179,7 @@
     { "id": "familia", "accent": "pink", "demo": null },
     { "id": "running", "accent": "cyan", "demo": "https://www.strava.com/athletes/120587412" },
     { "id": "lifestyle", "accent": "green", "demo": null },
+    { "id": "politica", "accent": "red", "demo": null },
     { "id": "arts", "accent": "gold", "demo": "https://vimeo.com/uriustrell" },
     { "id": "lateral", "accent": "purple", "demo": null },
     { "id": "goal", "accent": "green", "demo": null },
