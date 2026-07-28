@@ -26,7 +26,7 @@ describe('runCommand', () => {
   })
 
   it.each([
-    ['whoami', "Oriol 'Uri' Ustrell i Altayo"],
+    ['whoami', "Oriol 'Uri' Ustrell i Altayó"],
     ['skills', 'frontend : React, Next.js, TypeScript, Redux, SASS'],
     ['experience', 'MANGO            Senior Frontend Dev     2020 - now'],
     ['education', 'Cal Molins        Web App Development     2017-2018'],

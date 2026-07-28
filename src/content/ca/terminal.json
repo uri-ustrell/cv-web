@@ -25,7 +25,7 @@
       { "text": "  clear       neteja la pantalla", "color": "text" }
     ],
     "whoami": [
-      { "text": "Oriol 'Uri' Ustrell i Altayo", "color": "cyan" },
+      { "text": "Oriol 'Uri' Ustrell i Altayó", "color": "cyan" },
       {
         "text": "Desenvolupador Full-Stack JS/TS, tirant a frontend, establert a Sabadell.",
         "color": "text"
