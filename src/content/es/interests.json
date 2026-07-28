@@ -1,7 +1,19 @@
 {
   "title": "HABILIDADES PASIVAS",
-  "intro": "Bufos fuera de horario y los autores que me recablearon la cabeza:",
+  "intro": "Ahora mismo: kilómetros, fisiología y tiempo de calidad con Olívia y Queralt — el resto son lecturas de otra vida:",
   "cards": {
+    "familia": {
+      "name": "+FAMILIA",
+      "body": "Mis hijas. El mejor proyecto, el que más tiempo y amor requiere."
+    },
+    "running": {
+      "name": "+RUNNING & FISIOLOGÍA",
+      "body": "Zona 2, umbral, mitocondrias — correr como excusa para entender mi propio metabolismo."
+    },
+    "lifestyle": {
+      "name": "+LIFESTYLE",
+      "body": "Kéfir casero y producto ecológico de proximidad — lo que como me transforma a mí y al entorno."
+    },
     "lateral": {
       "name": "+PENSAMIENTO LATERAL",
       "body": "Edward de Bono — ataca el problema desde el lado."
@@ -13,10 +25,6 @@
     "nlp": {
       "name": "+PNL",
       "body": "Bandler & Grinder — el mapa no es el territorio."
-    },
-    "arts": {
-      "name": "+ARTES CREATIVAS",
-      "body": "Vídeo, motion, sonido en directo y radio — una vida creativa pasada."
     }
   }
 }

@@ -175,10 +175,13 @@
     { "id": "uoccomm", "year": "2009-2014" }
   ],
   "interests": [
+    { "id": "familia", "accent": "pink", "demo": null },
+    { "id": "running", "accent": "cyan", "demo": "https://www.strava.com/athletes/120587412" },
+    { "id": "lifestyle", "accent": "green", "demo": null },
+    { "id": "arts", "accent": "gold", "demo": "https://vimeo.com/uriustrell" },
     { "id": "lateral", "accent": "purple", "demo": null },
     { "id": "goal", "accent": "green", "demo": null },
-    { "id": "nlp", "accent": "pink", "demo": null },
-    { "id": "arts", "accent": "gold", "demo": "https://vimeo.com/uriustrell" }
+    { "id": "nlp", "accent": "pink", "demo": null }
   ],
   "achievementIcons": {
     "boot": "GO",

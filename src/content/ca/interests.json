@@ -1,7 +1,23 @@
 {
   "title": "HABILITATS PASSIVES",
-  "intro": "Bufs fora d'hores i els autors que em van recablejar el cap:",
+  "intro": "Ara mateix: quilòmetres, fisiologia i temps de qualitat amb l'Olívia i la Queralt — la resta són lectures d'una altra vida:",
   "cards": {
+    "familia": {
+      "name": "+FAMÍLIA",
+      "body": "Les meves filles. El millor projecte, el que més temps i amor requereix."
+    },
+    "running": {
+      "name": "+RUNNING & FISIOLOGIA",
+      "body": "Zona 2, llindar, mitocondris — córrer com a excusa per entendre el propi metabolisme."
+    },
+    "lifestyle": {
+      "name": "+LIFESTYLE",
+      "body": "Quefir casolà i producte ecològic de proximitat — el que menjo em transforma a mi i l'entorn."
+    },
+    "arts": {
+      "name": "+ARTS CREATIVES",
+      "body": "Vídeo, motion, so en directe i ràdio — una vida creativa passada."
+    },
     "lateral": {
       "name": "+PENSAMENT LATERAL",
       "body": "Edward de Bono — ataca el problema de costat."
@@ -13,10 +29,6 @@
     "nlp": {
       "name": "+PNL",
       "body": "Bandler & Grinder — el mapa no és el territori."
-    },
-    "arts": {
-      "name": "+ARTS CREATIVES",
-      "body": "Vídeo, motion, so en directe i ràdio — una vida creativa passada."
     }
   }
 }

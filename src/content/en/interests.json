@@ -1,7 +1,23 @@
 {
   "title": "PASSIVE SKILLS",
-  "intro": "Off-clock buffs and the authors who rewired my head:",
+  "intro": "Right now: miles, physiology and quality time with Olívia and Queralt — the rest are readings from another life:",
   "cards": {
+    "familia": {
+      "name": "+FAMILY",
+      "body": "My daughters. The best project, the one that takes the most time — and love."
+    },
+    "running": {
+      "name": "+RUNNING & PHYSIOLOGY",
+      "body": "Zone 2, threshold, mitochondria — running as an excuse to understand my own metabolism."
+    },
+    "lifestyle": {
+      "name": "+LIFESTYLE",
+      "body": "Homemade kefir and local organic produce — what I eat builds me and my environment."
+    },
+    "arts": {
+      "name": "+CREATIVE ARTS",
+      "body": "Video, motion, live sound & radio — a past creative life."
+    },
     "lateral": {
       "name": "+LATERAL THINKING",
       "body": "Edward de Bono — attack the problem from the side."
@@ -13,10 +29,6 @@
     "nlp": {
       "name": "+NLP",
       "body": "Bandler & Grinder — the map is not the territory."
-    },
-    "arts": {
-      "name": "+CREATIVE ARTS",
-      "body": "Video, motion, live sound & radio — a past creative life."
     }
   }
 }

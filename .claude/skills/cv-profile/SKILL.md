@@ -19,7 +19,7 @@ Shared rules: `.claude/skills/_shared/CONVENTIONS.md`.
 ```jsonc
 {
   "eyebrow": "▶ NEW GAME · PLAYER 1",
-  "nameLine1": "Oriol",
+  "nameLine1": "Uri",
   "nameLine2": "Ustrell",
   "classLabel": "Class:",
   "classValue": "Full-Stack Developer",
