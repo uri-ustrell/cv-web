@@ -1,7 +1,7 @@
 import '@fontsource/press-start-2p/index.css'
 import '@fontsource/vt323/index.css'
 import '@/styles/globals.css'
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/next'
 import { headers } from 'next/headers'
 import type { ReactNode } from 'react'
 import type { Locale } from '@/lib/locales'
