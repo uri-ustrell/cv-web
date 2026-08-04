@@ -6,7 +6,7 @@
   "description": "Retro-pixel gamified CV of Oriol 'Uri' Ustrell — uriustrell.dev",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3030",
     "build": "next build",
     "start": "next start",
     "lint": "npm run lint:biome && npm run lint:types",
